@@ -3,7 +3,7 @@
 
 var Pervasives = require("rescript/lib/js/pervasives.js");
 
-function getItemIndicators(_a, _orderItems) {
+function getItemIndicators(arg) {
   return Pervasives.failwith("unimplemented");
 }
 
