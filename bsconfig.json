@@ -1,0 +1,25 @@
+{
+  "name": "ts-bug",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "gentypeconfig": {
+    "language": "typescript",
+    "shims": {},
+    "generatedFileExtension": ".gen.ts",
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  },
+  "bs-dependencies": ["@ryyppy/rescript-promise", "bs-aeson"],
+  "suffix": ".bs.js"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ts-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "re:watch": "rescript build -w",
+    "ts:watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gentype": "^4.1.0",
+    "rescript": "^9.1.4",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@ryyppy/rescript-promise": "^2.1.0",
+    "bs-aeson": "^4.6.0"
+  }
+}
